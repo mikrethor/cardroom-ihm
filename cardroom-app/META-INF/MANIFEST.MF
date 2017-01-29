@@ -16,3 +16,14 @@ Require-Bundle: javax.inject;bundle-version="0.0.0",
  org.eclipse.core.runtime;bundle-version="0.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/jsr311-api-1.1.1.jar,
+ lib/jersey-client-1.19.jar,
+ lib/jersey-core-1.19.jar,
+ lib/jersey-json-1.19.jar,
+ lib/jackson-core-asl-1.9.2.jar,
+ lib/jackson-jaxrs-1.9.2.jar,
+ lib/jackson-mapper-asl-1.9.2.jar,
+ lib/jaxb-api-2.2.2.jar,
+ lib/jaxb-impl-2.2.3-1.jar,
+ lib/jackson-xc-1.9.2.jar

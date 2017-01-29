@@ -24,6 +24,10 @@
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="cardroom-app">
+         <property
+               name="appName"
+               value="cardroom-app">
+         </property>
       </product>
    </extension>
 
