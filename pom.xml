@@ -100,6 +100,8 @@
 		<project.build.javaVersion>1.8</project.build.javaVersion>
 		<project.build.vendor>mikrethor</project.build.vendor>
 
+		<cardroom.backend.version>0.0.1-SNAPSHOT</cardroom.backend.version>
+
 		<cbi-jdt-repo.url>
 			https://repo.eclipse.org/content/repositories/eclipse/
 		</cbi-jdt-repo.url>
