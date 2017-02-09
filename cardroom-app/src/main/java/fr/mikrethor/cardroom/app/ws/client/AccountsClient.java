@@ -24,7 +24,7 @@ public class AccountsClient {
 
 	private WebResource webResource;
 
-	public static AccountsClient getINSTANCE() {
+	public static AccountsClient getInstance() {
 		if (INSTANCE == null) {
 			INSTANCE = new AccountsClient();
 		}

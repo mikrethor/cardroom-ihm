@@ -5,7 +5,7 @@
       <children xsi:type="advanced:Perspective" xmi:id="_6wlLkcgZEeSyMNYR5xypkQ" elementId="cardroom-app.perspective.sample">
         <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="cardroom-app.partsashcontainer.sample">
           <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="cardroom-app.partstack.sample">
-            <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="cardroom-app.part.sample" contributionURI="bundleclass://cardroom-app/fr.mikrethor.cardroom.app.parts.SamplePart" label="Sample Part"/>
+            <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="cardroom-app.part.sample" contributionURI="bundleclass://cardroom-app/fr.mikrethor.cardroom.app.parts.AccountPart" label="Accounts" closeable="true"/>
           </children>
         </children>
       </children>

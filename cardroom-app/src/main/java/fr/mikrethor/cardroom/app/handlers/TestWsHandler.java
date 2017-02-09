@@ -25,16 +25,16 @@ public class TestWsHandler {
 			Account acP = new Account(aP, pokerstars, "test path");
 
 			// Test get list
-			for (Account a : AccountsClient.getINSTANCE().listAll()) {
+			for (Account a : AccountsClient.getInstance().listAll()) {
 				result = result + a;
 				System.out.println(a.getPlayer().getName());
 			}
 
 			// Test delete
-			System.out.println("delete : " + AccountsClient.getINSTANCE().delete(1l));
+			System.out.println("delete : " + AccountsClient.getInstance().delete(1l));
 
 			// Test post
-			System.out.println("save : " + AccountsClient.getINSTANCE().save(acP).getId());
+			System.out.println("save : " + AccountsClient.getInstance().save(acP).getId());
 			result = "ok";
 
 		} catch (Exception e) {
