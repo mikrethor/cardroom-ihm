@@ -2,6 +2,7 @@ package fr.mikrethor.cardroom.app.parts;
 
 import java.util.Arrays;
 import java.util.List;
+
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
@@ -42,9 +43,11 @@ public class SamplePart {
 
 		tableViewer = new TableViewer(parent);
 
-		tableViewer.setContentProvider(ArrayContentProvider.getInstance());;
+		tableViewer.setContentProvider(ArrayContentProvider.getInstance());
+		;
 		tableViewer.setInput(createInitialDataModel());
 		tableViewer.getTable().setLayoutData(new GridData(GridData.FILL_BOTH));
+
 	}
 
 	@Focus
@@ -56,7 +59,7 @@ public class SamplePart {
 	public void save() {
 		dirty.setDirty(false);
 	}
-	
+
 	private List<String> createInitialDataModel() {
 		return Arrays.asList("Sample item 1", "Sample item 2", "Sample item 3", "Sample item 4", "Sample item 5");
 	}

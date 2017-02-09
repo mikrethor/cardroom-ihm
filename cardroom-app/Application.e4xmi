@@ -20,7 +20,7 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLj8gZEeSyMNYR5xypkQ" elementId="cardroom-app.handleditem.about" label="About" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
       </children>
       <children xsi:type="menu:Menu" xmi:id="_iPcTYOXUEeatlID4VUjGsw" elementId="cardroom-app.menu.test" label="Test">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_kISrYOXUEeatlID4VUjGsw" elementId="cardroom-app.handledmenuitem.callws" label="Call WS" command="_sr1PMOXTEeatlID4VUjGsw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kISrYOXUEeatlID4VUjGsw" elementId="cardroom-app.handledmenuitem.callws" label="Call WS" iconURI="platform:/plugin/cardroom-app/icons/ic_pause_grey600_18dp.png" command="_sr1PMOXTEeatlID4VUjGsw"/>
       </children>
     </mainMenu>
     <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="cardroom-app.trimbar.top">
