@@ -66,8 +66,8 @@ public class AccountPart {
 
 	// id du compte
 	private void createColumns(final Composite parent, final TableViewer viewer) {
-		final String[] titles = { "Id", "Name", "Hand folder", "Cardroom" };
-		final int[] bounds = { 40, 100, 500, 100 };
+		final String[] titles = { "Name", "Hand folder", "Cardroom" };
+		final int[] bounds = { 100, 500, 100 };
 
 		// first column is for the first name
 		TableViewerColumn col = createTableViewerColumn(titles[0], bounds[0], 0);
@@ -75,7 +75,7 @@ public class AccountPart {
 			@Override
 			public String getText(Object element) {
 				final Account account = (Account) element;
-				return String.valueOf(account.getId());
+				return account.getPlayer().getName();
 			}
 		});
 
@@ -91,16 +91,6 @@ public class AccountPart {
 
 		// repertoire de stockage des mains
 		col = createTableViewerColumn(titles[2], bounds[2], 2);
-		col.setLabelProvider(new ColumnLabelProvider() {
-			@Override
-			public String getText(Object element) {
-				final Account account = (Account) element;
-				return account.getHandPath();
-			}
-		});
-
-		// nom du site
-		col = createTableViewerColumn(titles[3], bounds[3], 3);
 		col.setLabelProvider(new ColumnLabelProvider() {
 			@Override
 			public String getText(Object element) {
